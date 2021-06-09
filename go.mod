@@ -1,4 +1,4 @@
-module boilerplate
+module micron_api
 
 go 1.15
 

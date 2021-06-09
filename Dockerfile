@@ -1,8 +1,8 @@
 # Building the binary of the App
 FROM golang:1.15 AS build
 
-# `boilerplate` should be replaced with your project name
-WORKDIR /go/src/boilerplate
+# `micro_api` should be replaced with your project name
+WORKDIR /go/src/micro_api
 
 # Copy all the Code and stuff to compile everything
 COPY . .
@@ -23,8 +23,8 @@ WORKDIR /app
 RUN mkdir ./static
 COPY ./static ./static
 
-# `boilerplate` should be replaced here as well
-COPY --from=build /go/src/boilerplate/app .
+# `micro_api` should be replaced here as well
+COPY --from=build /go/src/micro_api/app .
 
 # Exposes port 3000 because our program listens on that port
 EXPOSE 3000

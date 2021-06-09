@@ -1,8 +1,8 @@
 package main
 
 import (
-	"boilerplate/database"
-	"boilerplate/handlers"
+	"micron_api/database"
+	"micron_api/handlers"
 
 	"flag"
 	"log"

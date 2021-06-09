@@ -1,8 +1,8 @@
 package database
 
 import (
-	"boilerplate/models"
 	"fmt"
+	"micron_api/models"
 	"sync"
 )
 
