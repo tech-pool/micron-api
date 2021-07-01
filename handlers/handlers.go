@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"boilerplate/database"
-	"boilerplate/models"
+	"micron_api/database"
+	"micron_api/models"
 
 	"github.com/gofiber/fiber/v2"
 )
